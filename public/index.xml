@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title> on Exercism Command-Line Client </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://cli.exercism.io/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title></title>
+      <link>http://cli.exercism.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://cli.exercism.io/contact/</guid>
+      <description>Chat Find our support channel on Gitter.
+GitHub Issues Open an issue in exercism/cli.</description>
+    </item>
+    
+    <item>
+      <title>About Exercism</title>
+      <link>http://cli.exercism.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://cli.exercism.io/about/</guid>
+      <description>Exercism is an open source project that aims to give people a way to get from that awkward &amp;ldquo;Hello, World!&amp;rdquo; in a new programming language to being fluent and at ease with the basic constructs, idioms and standard library of the language.
+The project supports over 40 programming languages, each of which contains numerous small exercises. You work on the exercises locally, in your own development environment and favorite text editor.</description>
+    </item>
+    
+    <item>
+      <title>Basic Usage</title>
+      <link>http://cli.exercism.io/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://cli.exercism.io/usage/</guid>
+      <description>Run the help subcommand to get the full list of available commands.
+exercism help  Configuration You need to tell the tool who you are:
+exercism configure --key=YOUR\_API\_KEY  Visit exercism.io/account/key to get your api key.
+You can override other configuration options. Run exercism configure without any arguments to see the available options.
+Downloading exercises You download exercises for a track with the fetch command. Replace $TRACK_ID with the ID of the track you are working on, e.</description>
+    </item>
+    
+    <item>
+      <title>Shell completion scripts</title>
+      <link>http://cli.exercism.io/scripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://cli.exercism.io/scripts/</guid>
+      <description>Bash Install the CLI bash-completion script by downloading it and sourcing it in your shell config.
+mkdir -p ~/.config/exercism curl http://cli.exercism.io/shell/exercism\_completion.bash &amp;gt; ~/.config/exercism/exercism\_completion.bash  Load the completion in your .bashrc, .bash_profile or .profile by adding the following snippet:
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then source ~/.config/exercism/exercism_completion.bash fi  Zsh Install the CLI bash-completion script by downloading it and sourcing it in your shell config.
+mkdir -p ~/.config/exercism curl http://cli.exercism.io/shell/exercism\_completion.zsh &amp;gt; ~/.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://cli.exercism.io/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://cli.exercism.io/troubleshooting/</guid>
+      <description>Make sure you are on the latest version.
+Verify which version you are on:
+exercism -v  Verify against the latest release and upgrade if your version is not the most recent.
+After upgrading, double-check the version. If the version didn&amp;rsquo;t change, make sure you are running the upgraded binary.
+which exercism  If you are still having trouble open an issue in exercism/cli on GitHub with the output of the debug command.</description>
+    </item>
+    
+  </channel>
+</rss>
+

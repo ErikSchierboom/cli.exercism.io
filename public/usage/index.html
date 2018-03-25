@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Basic Usage - Exercism Command-Line Client</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://cli.exercism.io/usage/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="http://cli.exercism.io/css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://cli.exercism.io" class="site-title">Exercism Command-Line Client</a>
+      <nav class="site-nav right">
+      <a href="http://cli.exercism.io/usage/">Basic Usage</a>
+<a href="http://cli.exercism.io/troubleshooting/">Troubleshooting</a>
+<a href="http://cli.exercism.io/contact/">Contact</a>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Basic Usage</h1>
+      </div>
+
+      <article class="post-content">
+      
+
+<p>Run the <code>help</code> subcommand to get the full list of available commands.</p>
+
+<pre><code>exercism help
+</code></pre>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>You need to tell the tool who you are:</p>
+
+<pre><code>exercism configure --key=YOUR\_API\_KEY
+</code></pre>
+
+<p>Visit <a href="http://exercism.io/account/key">exercism.io/account/key</a> to get your api
+key.</p>
+
+<p>You can override other configuration options. Run <code>exercism configure</code> without
+any arguments to see the available options.</p>
+
+<h2 id="downloading-exercises">Downloading exercises</h2>
+
+<p>You download exercises for a track with the <code>fetch</code> command. Replace
+<code>$TRACK_ID</code> with the ID of the track you are working on, e.g. <code>python</code> or
+<code>haskell</code>.</p>
+
+<pre><code>$ exercism fetch $TRACK_ID
+</code></pre>
+
+<p>You can download a specific exercise by specifying the exercise slug, for
+example <code>hello-world</code> or <code>food-chain</code>.</p>
+
+<pre><code>$ exercism fetch $TRACK_ID $EXERCISE_SLUG
+</code></pre>
+
+<p>The full list of supported languages can be found at
+<a href="http://exercism.io/languages">exercism.io/languages</a>.</p>
+
+<h2 id="submitting-exercises">Submitting exercises</h2>
+
+<p>To submit an exercise, use the submit command. If you solution has multiple
+files then submit them in a single command.</p>
+
+<pre><code>exercism submit path/to/file1.ext path/to/file2.ext
+</code></pre>
+
+<p>You only need to submit the code you wrote to solve the exercise, not the test
+suite that you were given.</p>
+
+      </article>
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+
+</nav>
+
+          <small>
+            Copyright &#169; 2018<br>
+            Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+
+</body>
+</html>
+

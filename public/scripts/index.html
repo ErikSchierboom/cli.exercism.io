@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Shell completion scripts - Exercism Command-Line Client</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://cli.exercism.io/scripts/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="http://cli.exercism.io/css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://cli.exercism.io" class="site-title">Exercism Command-Line Client</a>
+      <nav class="site-nav right">
+      <a href="http://cli.exercism.io/usage/">Basic Usage</a>
+<a href="http://cli.exercism.io/troubleshooting/">Troubleshooting</a>
+<a href="http://cli.exercism.io/contact/">Contact</a>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Shell completion scripts</h1>
+      </div>
+
+      <article class="post-content">
+      
+
+<h2 id="bash">Bash</h2>
+
+<p>Install the <a href="/shell/exercism_completion.bash">CLI bash-completion script</a> by
+downloading it and sourcing it in your shell config.</p>
+
+<pre><code>mkdir -p ~/.config/exercism
+curl http://cli.exercism.io/shell/exercism\_completion.bash &gt; ~/.config/exercism/exercism\_completion.bash
+</code></pre>
+
+<p>Load the completion in your <code>.bashrc</code>, <code>.bash_profile</code> or <code>.profile</code> by
+adding the following snippet:</p>
+
+<pre><code>if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  source ~/.config/exercism/exercism_completion.bash
+fi
+</code></pre>
+
+<h2 id="zsh">Zsh</h2>
+
+<p>Install the <a href="/shell/exercism_completion.zsh">CLI bash-completion script</a> by
+downloading it and sourcing it in your shell config.</p>
+
+<pre><code>mkdir -p ~/.config/exercism
+curl http://cli.exercism.io/shell/exercism\_completion.zsh &gt; ~/.config/exercism/exercism\_completion.zsh
+</code></pre>
+
+<p>Load up the completion in your <code>.zshrc</code>, <code>.zsh_profile</code> or <code>.profile</code> by adding
+the following snippet</p>
+
+<pre><code>if [ -f ~/.config/exercism/exercism_completion.zsh ]; then
+  source ~/.config/exercism/exercism_completion.zsh
+fi
+</code></pre>
+
+<p><strong>Note:</strong> If you are using the popular
+<a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> framework to manage your
+zsh plugins, you don&rsquo;t need to add the above snippet, all you need to do is
+create a file <code>exercism_completion.zsh</code> inside the <code>~/.oh-my-zsh/custom</code>.</p>
+
+      </article>
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+
+</nav>
+
+          <small>
+            Copyright &#169; 2018<br>
+            Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+
+</body>
+</html>
+
