@@ -1,4 +1,4 @@
-baseURL = "https://cli.exercism.io"
+baseURL = "http://cli.exercism.io"
 languageCode = "en-us"
 title = "Exercism Command-Line Client"
 theme = "pixyll"
